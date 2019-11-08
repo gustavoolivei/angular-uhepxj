@@ -3,12 +3,14 @@ import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule } from '@angular/forms';
 
 import { AppComponent } from './app.component';
-import { CabecalhoComponent } from './cabecalho/cabecalho.component';
+
+import { NomeComponent } from './nome/nome.component';
+import { RodapeComponent } from './rodape/rodape.component';
 
 
 @NgModule({
   imports:      [ BrowserModule, FormsModule ],
-  declarations: [ AppComponent, CabecalhoComponent],
+  declarations: [ AppComponent, NomeComponent, RodapeComponent],
   bootstrap:    [ AppComponent ]
 })
 export class AppModule { }
